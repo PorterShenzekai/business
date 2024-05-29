@@ -1,0 +1,209 @@
+<!DOCTYPE html>    
+<html lang="en">    
+<head>    
+<meta charset="UTF-8">    
+<title>Product Portfolio</title> 
+<link rel="stylesheet" type="text/css" href="1.css">   
+<style>   
+
+  
+</style>    
+</head>    
+<body>    
+    
+  <div class="header">
+    <img src="logo.jpg" alt="logo" class="left-image">  
+    <h1>Welcome to my Product  page </h1>  
+    <p>Here are some of computer products information.</p>  
+  </div>   
+    
+  <div class="topnav">  
+    <a href="home.html">Home</a>  
+    <a href="index.html">index</a>
+    <a href="blog.html">Blog page</a> 
+    <a href="about.html">About Us</a>
+     
+  </div> 
+    
+<div class="products">    
+  <!-- First product -->  
+  <div class="product-item">  
+    <img src="1.jpg" alt="Product 1" class="product-image">  
+    <button class="product-name" onclick="showModal('productModal1')">ROG Zephyrus G15</button>  
+  </div>  
+  <div class="product-item">  
+    <img src="2.jpg" alt="Product 2" class="product-image">  
+    <button class="product-name" onclick="showModal('productModal2')">Lenovo Legion R9000P</button>  
+  </div>  
+  <div class="product-item">  
+    <img src="3.jpg" alt="Product 3" class="product-image">  
+    <button class="product-name" onclick="showModal('productModal3')">HP EliteBook 840 G9</button>  
+  </div>  
+  <div class="product-item">  
+    <img src="4.jpg" alt="Product 4" class="product-image">  
+    <button class="product-name" onclick="showModal('productModal4')">ThinkBook 14+ 2024</button>  
+  </div>  
+  <div class="product-item">  
+    <img src="5.jpg" alt="Product 5" class="product-image">  
+    <button class="product-name" onclick="showModal('productModal5')">ASUS ZenBook Pro 15 2024</button>  
+  </div>  
+  <div class="product-item">  
+    <img src="6.jpg" alt="Product 6" class="product-image">  
+    <button class="product-name" onclick="showModal('productModal6')">Lenovo Xiaoxin Pro 14 2024 AI</button>  
+  </div>  
+  <div class="product-item">  
+    <img src="7.jpg" alt="Product 7" class="product-image">  
+    <button class="product-name" onclick="showModal('productModal7')">Colorful iGame P15</button>  
+  </div> 
+  <div class="product-item">  
+    <img src="8.jpg" alt="Product 8" class="product-image">  
+    <button class="product-name" onclick="showModal('productModal8')">Lenovo Legion R7000</button>  
+  </div> 
+  <div class="product-item">  
+    <img src="9.jpg" alt="Product 9" class="product-image">  
+    <button class="product-name" onclick="showModal('productModal9')">ASUS VivoBook 14 2024</button>  
+  </div> 
+  <div class="product-item">  
+    <img src="10.jpg" alt="Product 10" class="product-image">  
+    <button class="product-name" onclick="showModal('productModal10')">ROG Zephyrus G16 Air</button>  
+  </div> 
+  <!-- More products can be added like this -->  
+</div>  
+  
+<!-- Modal box for the first product -->  
+<div id="productModal1" class="product-modal">  
+  <div class="product-modal-content">  
+    <span class="close" onclick="closeModal('productModal1')">&times;</span>
+    <img src="1.jpg" alt="Product 1" class="product-image">  
+    <h2>ROG Zephyrus G15</h2>  
+    <p>Feature: Gaming Laptop
+      Processor: i9-14900HX
+      Graphics: RTX 4060
+      Review: A top-tier gaming laptop with powerful performance, perfect for gamers seeking the ultimate gaming experience.</p>  
+    <!-- Add more detailed information about the product here -->  
+  </div>  
+</div> 
+<div id="productModal2" class="product-modal">  
+    <div class="product-modal-content">  
+      <span class="close" onclick="closeModal('productModal2')">&times;</span>
+      <img src="2.jpg" alt="Product 2" class="product-image">  
+      <h2>Lenovo Legion R9000P</h2>  
+      <p>Feature: Gaming Laptop
+        Processor: R9-7945HX
+        Graphics: RTX 4060
+        Review: A stellar gaming laptop in China, known for its excellent hardware stacking and performance tuning, loved by consumers.</p>  
+      <!-- Add more detailed information about the product here -->  
+    </div>  
+  </div> 
+  <div id="productModal3" class="product-modal">  
+    <div class="product-modal-content">  
+      <span class="close" onclick="closeModal('productModal3')">&times;</span>
+      <img src="3.jpg" alt="Product 3" class="product-image">  
+      <h2>HP EliteBook 840 G9
+      </h2>  
+      <p>Feature: Business Laptop
+        Processor: Intel Core i5 flagship processor
+        Review: The best-configured laptop in the four-thousand price range, with excellent cooling performance and long battery life.</p>  
+      <!-- Add more detailed information about the product here -->  
+    </div>  
+  </div>
+  <div id="productModal4" class="product-modal">  
+    <div class="product-modal-content">  
+      <span class="close" onclick="closeModal('productModal4')">&times;</span>
+      <img src="4.jpg" alt="Product 4" class="product-image">  
+      <h2>ThinkBook 14+ 2024</h2>  
+      <p>Feature: High-value Lightweight Laptop
+        Processor: Various processors available based on configuration
+        Review: Lightweight and portable, suitable for students and office workers, offering excellent value for money.</p>
+    </div>  
+  </div>
+  <div id="productModal5" class="product-modal">  
+    <div class="product-modal-content">  
+      <span class="close" onclick="closeModal('productModal5')">&times;</span>
+      <img src="5.jpg" alt="Product 5" class="product-image">  
+      <h2>ASUS ZenBook Pro 15 2024</h2>  
+      <p>Feature: High-value Lightweight Laptop
+        Processor: Various processors available based on configuration
+        Review: One of the best value-for-money lightweight laptops with a 15.6-inch screen, suitable for users who need a larger display.</p>  
+      <!-- Add more detailed information about the product here -->  
+    </div>  
+  </div>
+  <div id="productModal6" class="product-modal">  
+    <div class="product-modal-content">  
+      <span class="close" onclick="closeModal('productModal6')">&times;</span>
+      <img src="6.jpg" alt="Product 6" class="product-image">  
+      <h2>Lenovo Xiaoxin Pro 14 2024 AI</h2>  
+      <p>Feature: Lightweight Laptop
+        Processor: AMD Ryzen 7 8845H
+        Review: Powerful performance, equipped with a high-resolution OLED screen, suitable for office work and entertainment.</p>  
+      <!-- Add more detailed information about the product here -->  
+    </div>  
+  </div>
+  <div id="productModal7" class="product-modal">  
+    <div class="product-modal-content">  
+      <span class="close" onclick="closeModal('productModal7')">&times;</span>
+      <img src="7.jpg" alt="Product 7" class="product-image">  
+      <h2>Colorful iGame P15</h2>  
+      <p>Feature: Gaming Laptop
+        Processor: 13th Gen Intel Core i7
+        Graphics: RTX 4060
+        Review: Powerful performance, designed specifically for gaming and high-load tasks, perfect for gaming enthusiasts.</p>
+    </div>  
+  </div>
+  <div id="productModal8" class="product-modal">  
+    <div class="product-modal-content">  
+      <span class="close" onclick="closeModal('productModal8')">&times;</span>
+      <img src="8.jpg" alt="Product 8" class="product-image">  
+      <h2>Lenovo Legion R7000</h2>  
+      <p>Feature: Gaming Laptop
+        Processor: AMD Ryzen 7 7000 Series
+        Graphics: RTX 4060
+        Review: Provides excellent gaming performance with a low-key and professional appearance, suitable for gamers.
+        </p>
+      <!-- Add more detailed information about the product here -->  
+    </div>  
+  </div>
+  <div id="productModal9" class="product-modal">  
+    <div class="product-modal-content">  
+      <span class="close" onclick="closeModal('productModal9')">&times;</span>
+      <img src="9.jpg" alt="Product 9" class="product-image">  
+      <h2>ASUS VivoBook 14 2024</h2>  
+      <p>Feature: Lightweight Laptop
+        Processor: Various processors available based on configuration
+        Review: A high-quality lightweight laptop offering excellent value for money, suitable for users who value quality.</p>
+    </div>  
+  </div>
+  <div id="productModal10" class="product-modal">  
+    <div class="product-modal-content">  
+      <span class="close" onclick="closeModal('productModal10')">&times;</span>
+      <img src="10.jpg" alt="Product 10" class="product-image">  
+      <h2>ROG Zephyrus G16 Air</h2>  
+      <p>Feature: All-rounder Laptop
+        Processor: Various processors available based on configuration
+        Review: A high-value all-rounder laptop with balanced performance, perfect for users who need both high performance and portability.</p>
+      <!-- Add more detailed information about the product here -->  
+    </div>  
+  </div>
+  
+<script>  
+// Function for displaying modal boxes  
+function showModal(modalId) {  
+  var modal = document.getElementById(modalId);  
+  modal.style.display = "block";  
+}  
+  
+// Function to close modal boxes  
+function closeModal(modalId) {  
+  var modal = document.getElementById(modalId);  
+  modal.style.display = "none";  
+}  
+</script>
+
+<footer>  
+    <div class="footer-content">  
+    <p>Copyright &copy; 2024 Porter. All rights reserved.</p>  
+        
+  </footer>  
+  
+</body>  
+</html>
